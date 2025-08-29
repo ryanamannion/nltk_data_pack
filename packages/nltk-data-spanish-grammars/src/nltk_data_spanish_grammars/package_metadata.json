@@ -1,0 +1,22 @@
+{
+    "id": "spanish_grammars",
+    "name": "Grammars for Spanish",
+    "unzip": true,
+    "unzipped_size": 3980,
+    "size": "4047",
+    "checksum": "12f66b8e22beadd6ed202e95453465af",
+    "subdir": "grammars",
+    "url": "https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/grammars/spanish_grammars.zip",
+    "webpage": null,
+    "author": "Kepa Sarasola",
+    "contact": null,
+    "license": null,
+    "languages": "Spanish",
+    "copyright": null,
+    "note": null,
+    "license_url": null,
+    "sample": null,
+    "version": null,
+    "description": null,
+    "available": true
+}

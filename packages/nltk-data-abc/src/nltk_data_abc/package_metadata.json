@@ -1,0 +1,22 @@
+{
+    "id": "abc",
+    "name": "Australian Broadcasting Commission 2006",
+    "unzip": true,
+    "unzipped_size": 4054966,
+    "size": "1487851",
+    "checksum": "ffb36b67ff24cbf7daaf171c897eb904",
+    "subdir": "corpora",
+    "url": "https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/abc.zip",
+    "webpage": "http://www.abc.net.au/",
+    "author": "Australian Broadcasting Commission",
+    "contact": null,
+    "license": null,
+    "languages": null,
+    "copyright": null,
+    "note": null,
+    "license_url": null,
+    "sample": null,
+    "version": null,
+    "description": null,
+    "available": true
+}
