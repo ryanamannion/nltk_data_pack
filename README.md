@@ -18,14 +18,14 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-nltk-data-spanish-grammars = { git = "https://github.com/..." }
+nltk-data-spanish-grammars = { url = "https://github.com/..." }
 ```
 
 ### With pip via requirements.txt
 
 ```text
 # requirements.txt
-nltk-data-spanish-grammars @ git+https://github.com/...
+nltk-data-spanish-grammars @ https://github.com/...
 ```
 
 ```bash
@@ -37,7 +37,7 @@ $ pip install -r requirements.txt
 ```python
 import nltk_data_pack
 
-_ = nltk_data_pack.configure()
+nltk_data_pack.configure_nltk_data()
 ```
 
 # Ideas
