@@ -1,0 +1,27 @@
+#!/usr/bin/env -S uv run --script
+
+from pathlib import Path
+import subprocess
+from os import chdir
+
+def get_version():
+    subprocess.run(["uv", "version"])
+
+project_root = Path(__file__).parent
+
+# Main package version
+print("--")
+chdir(project_root/"src")
+get_version()
+
+# Core package version
+chdir(project_root/"packages/nltk-data-pack-core")
+get_version()
+
+# data packages versions
+print("--")
+data_packages = sorted(project_root.joinpath("packages").iterdir())
+for path in data_packages:
+    if path.is_dir() and path.name != "nltk-data-pack-core":
+        chdir(path)
+        subprocess.run(["uv", "version"])
